@@ -72,7 +72,7 @@ Replace content with
         linux1rhel
 
 
-2. Customize basic tasks.  Perhaps common requirement to your automated operation.
+2. Customize basic tasks pertain to common requirements to your automate server operation.
    We create separate main.yml according to OS platform differences.  For each main.yml, we define task to install python3.
 
 
