@@ -1,4 +1,4 @@
-# Ansible Server Configuration 
+# Configure Servers Using Ansible  
 
 
 [__Ansible__](https://en.wikipedia.org/wiki/Ansible) is a server configuration tool.  It is an open source software that automates software provisioning, configuration management, and application deployment. Ansible connects via SSH, remote PowerShell or via other remote APIs. 
@@ -7,12 +7,12 @@ __This document describes steps used to have Ansible configured and controlled t
 
 For the purpose of demonstrating how Ansible is used to configure and provision remote servers via SSH, let's refer to the table below.  We have a local controller node (*ubuntu16*), and three remote nodes (*raspberrypi3*, *linux1rhel*, *azuresles12*).
 
-| Ansible Controller | Servers   | IP_addr      | User
-| ------------- |:--------| ------------:|
-| *ubuntu16*      |          | 192.168.0.10 | hurricanemark
-|               | *raspberrypi3* | 192.168.0.35| hurricanemark
-|               | *linux1rhel* | 148.100.99.23| jakeo
-|               | *azuresles12* | 13.99.130.110| hurricanemark
+| Ansible Controller | Servers        | IP_addr       | User          |
+| ------------------ |:---------------| -------------:|---------------|
+| *ubuntu16*         |                | 192.168.0.10  | hurricanemark |
+|                    | *raspberrypi3* | 192.168.0.35  | hurricanemark |
+|                    | *linux1rhel*   | 148.100.99.23 | jakeo         |
+|                    | *azuresles12*  | 13.99.130.110 | hurricanemark |
  
 
 #### Aliases for SSH:
