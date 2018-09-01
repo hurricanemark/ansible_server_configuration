@@ -73,7 +73,7 @@ Replace content with
 
 
 2. Customize basic tasks.  Perhaps common requirement to your automated operation.
-   We create separate main.yml according to OS platform differences.
+   We create separate main.yml according to OS platform differences.  For each main.yml, we define task to install python3.
 
 
 * Create basic common tasks for __Ubuntu__ platforms
