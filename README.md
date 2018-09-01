@@ -67,7 +67,7 @@ Modify this line
 
 Replace content with
 
-		raspberrypi3
+	raspberrypi3
         azuresles12
         linux1rhel
 
