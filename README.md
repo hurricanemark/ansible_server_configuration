@@ -55,9 +55,9 @@ You can now reference ip address 192.168.0.35 by its alias *raspberrypi3*
 
 ### Create ansible workspace
 1. Create private workspace ( in your home directory).
-> hurricanemark@ubuntu16> ** cp -R /etc/ansible ~/myansible **
+> hurricanemark@ubuntu16> **cp -R /etc/ansible ~/myansible**
 
-> hurricanemark@ubuntu16> ** vi ~/myansible/ansible.cfg**
+> hurricanemark@ubuntu16> **vi ~/myansible/ansible.cfg**
 
 Modify this line
 
