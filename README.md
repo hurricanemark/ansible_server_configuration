@@ -77,6 +77,7 @@ Replace content with
 
 * Create basic common tasks for ubuntu platforms
 > hurricanemark@ubuntu16> **mkdir -p ~/myansible/roles/basic4ubuntu/tasks**
+
 > hurricanemark@ubuntu16> **vi ~/myansible/roles/basic4ubuntu/tasks/main.yml**
 
 
@@ -85,6 +86,7 @@ Replace content with
         
 * Create basic common tasks for ubuntu platforms
 > hurricanemark@ubuntu16> **mkdir -p ~/myansible/roles/basic4rhel/tasks**
+
 > hurricanemark@ubuntu16> **vi ~/myansible/roles/basic4rhel/tasks/main.yml**
 
 
@@ -94,6 +96,7 @@ Replace content with
         
 * Create basic common tasks for ubuntu platforms
 > hurricanemark@ubuntu16> **mkdir -p ~/myansible/roles/basic4sles/tasks**
+
 > hurricanemark@ubuntu16> **vi ~/myansible/roles/basic4sles/tasks/main.yml**
 
 
