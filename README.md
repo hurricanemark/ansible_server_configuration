@@ -76,7 +76,7 @@ Replace content with
    We create separate main.yml according to OS platform differences.
 
 
-* Create basic common tasks for ubuntu platforms
+* Create basic common tasks for __Ubuntu__ platforms
 > hurricanemark@ubuntu16> **mkdir -p ~/myansible/roles/basic4ubuntu/tasks**
 
 > hurricanemark@ubuntu16> **vi ~/myansible/roles/basic4ubuntu/tasks/main.yml**
@@ -85,7 +85,7 @@ Replace content with
 		- name: "Installing python3"
     	   apt: pkg=python3 state=installed
         
-* Create basic common tasks for ubuntu platforms
+* Create basic common tasks for __RHEL__ platforms
 > hurricanemark@ubuntu16> **mkdir -p ~/myansible/roles/basic4rhel/tasks**
 
 > hurricanemark@ubuntu16> **vi ~/myansible/roles/basic4rhel/tasks/main.yml**
@@ -95,7 +95,7 @@ Replace content with
     	   yum: pkg=python3 state=installed
         
         
-* Create basic common tasks for ubuntu platforms
+* Create basic common tasks for __SLES__ platforms
 > hurricanemark@ubuntu16> **mkdir -p ~/myansible/roles/basic4sles/tasks**
 
 > hurricanemark@ubuntu16> **vi ~/myansible/roles/basic4sles/tasks/main.yml**
