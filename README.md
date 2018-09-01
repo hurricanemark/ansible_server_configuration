@@ -29,7 +29,7 @@ For the purpose of demonstrating how Ansible is used to configure and provision 
       HostName 13.99.130.110
       User hurricanemark
 
-make sure to change permission on ~/.ssh/identity_linux1_priv to 400. You can now reference ip address 148.100.99.23 by its alias *linux1rhel*
+Make sure to change permission on ~/.ssh/identity_linux1_priv to 400. You can now reference ip address 148.100.99.23 by its alias *linux1rhel*
 
 > hurricanemark@ubuntu16> **ssh linux1rhel**
 
