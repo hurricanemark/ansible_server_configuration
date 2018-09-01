@@ -72,7 +72,8 @@ Replace content with
         linux1rhel
 
 
-2. Customize basic tasks.  Perhaps common requirement to your automated operation
+2. Customize basic tasks.  Perhaps common requirement to your automated operation.
+   We create separate main.yml according to OS platform differences.
 
 
 * Create basic common tasks for ubuntu platforms
@@ -135,7 +136,7 @@ Let's test the interconnectivity we have set up thus far.
 
 > hurricanemark@ubuntu16> **ansible -m shell -a 'whoami' all**
 
-> hurricanemark@ubuntu16> **ansible -m shell -a 'ping c1 www.google.com' all**
+> hurricanemark@ubuntu16> **ansible -m shell -a 'ping -c1 www.google.com' all**
 
 > hurricanemark@ubuntu16> **ansible -b -K -m user -a 'name=hurricanemark' all**
 
