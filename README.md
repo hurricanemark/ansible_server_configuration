@@ -83,7 +83,7 @@ Replace content with
 
 
 		- name: "Installing python3"
-    	   apt: pkg=python3 state=installed
+    	   apt: pkg=python3 state=present
         
 * Create basic common tasks for __RHEL__ platforms
 > hurricanemark@ubuntu16> **mkdir -p ~/myansible/roles/basic4rhel/tasks**
@@ -92,7 +92,7 @@ Replace content with
 
 
 		- name: "Installing python3"
-    	   yum: pkg=python3 state=installed
+    	   yum: pkg=python3 state=present
         
         
 * Create basic common tasks for __SLES__ platforms
@@ -102,7 +102,7 @@ Replace content with
 
 
 		- name: "Installing python3"
-    	  zypper: pkg=python3 state=installed
+    	  zypper: pkg=python3 state=present
 
 
 
