@@ -1,0 +1,16 @@
+### this sample file belongs in ~/.ssh
+### author: Mark Nguyen
+### email: hurricanemark@gmail.com
+
+Host raspberrypi3
+	HostName 192.168.0.240
+	User hurricanemark
+
+Host azuresles12
+	HostName 113.91.120.148
+	User hurricanemark
+
+Host linux1rhel
+	HostName 118.130.98.21
+	User linux1
+	IdentityFile ~/.ssh/identity_kito
