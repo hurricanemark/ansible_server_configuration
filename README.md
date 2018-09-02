@@ -9,7 +9,7 @@ __This document describes steps used to have Ansible configured and controlled t
 
 For the purpose of demonstrating how Ansible is used to configure and provision remote servers via SSH, let's refer to the table below.  We have a local controller node (*ubuntu16*), and three remote nodes (*raspberrypi3*, *linux1rhel*, *azuresles12*).
 
-| Ansible Controller | Servers        | IP_addr       | User          |
+| Ansible Controller | Test Servers   | IP_addr       | User          |
 | ------------------ |:---------------| -------------:|---------------|
 | *ubuntu16*         |                | 192.168.0.10  | hurricanemark |
 |                    | *raspberrypi3* | 192.168.0.35  | hurricanemark |
