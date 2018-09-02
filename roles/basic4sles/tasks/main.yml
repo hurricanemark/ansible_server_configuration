@@ -1,0 +1,4 @@
+- name: "Installing vim"
+  zypper: pkg=vim state=present
+- name: "Installing GIT"
+  zypper: pkg=git state=present

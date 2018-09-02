@@ -1,0 +1,4 @@
+- name: "Installing vim"
+  yum: pkg=vim state=present
+- name: "Installing git"
+  yum: pkg=git state=present
