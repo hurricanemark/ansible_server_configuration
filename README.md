@@ -153,8 +153,10 @@ Now, run basic tasks on all three servers.
 
 ## References
 [Ansible ad-hoc commands](https://docs.ansible.com/latest/usr_guide/intro_adhoc.html)
+
 [Ben's IT Lesson](https://www.youtube.com/channel/UCLLumGsi1QboyiFIJf8a-0wa)
 
 ## Feedback
 https://github.com/hurricanemark
+
 [email](hurricanemark@gmail.com)
