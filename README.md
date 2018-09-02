@@ -3,6 +3,8 @@
 
 [__Ansible__](https://en.wikipedia.org/wiki/Ansible) is a server configuration tool.  It is an open source software that automates software provisioning, configuration management, and application deployment. Ansible connects via SSH, remote PowerShell or via other remote APIs. 
 
+Generally, Ansible is used as a main option for deploy software built by Jenkins to test servers.
+
 __This document describes steps used to have Ansible configured and controlled three separate OS environments (servers) via the use of SSH.__
 
 For the purpose of demonstrating how Ansible is used to configure and provision remote servers via SSH, let's refer to the table below.  We have a local controller node (*ubuntu16*), and three remote nodes (*raspberrypi3*, *linux1rhel*, *azuresles12*).
