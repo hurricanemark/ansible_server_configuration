@@ -3,14 +3,14 @@
 ### email: hurricanemark@gmail.com
 
 Host raspberrypi3
-	HostName 192.168.0.240
+	HostName 192.168.0.35
 	User hurricanemark
 
 Host azuresles12
-	HostName 113.91.120.148
+	HostName 13.99.130.110
 	User hurricanemark
 
 Host linux1rhel
-	HostName 118.130.98.21
-	User linux1
+	HostName 148.100.99.23
+	User jakeo
 	IdentityFile ~/.ssh/identity_kito
