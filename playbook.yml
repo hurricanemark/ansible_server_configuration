@@ -14,3 +14,8 @@
   become: true
   roles:
   - basic4rhel
+
+- hosts: raspberrypi3
+  become: true
+  roles:
+  - webserver

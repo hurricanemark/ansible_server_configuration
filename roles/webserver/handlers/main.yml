@@ -1,0 +1,8 @@
+- name: enable-proxy-config
+  shell: a2enconf proxy.conf
+  notify:
+  - restart-apache2
+
+- name: restart-apache2
+  service: name=apache2 state=restarted
+
