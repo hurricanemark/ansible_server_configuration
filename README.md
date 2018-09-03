@@ -46,6 +46,8 @@ Make sure to change permission on ~/.ssh/identity_linux1_priv to 400. You can no
 > hurricanemark@ubuntu16> **ssh-copy-id -i ~/.ssh/identity_linux1_priv jakeo@linux1rhel**  
 
 ### Install ansible on the controller
+The attraction of this tool is this is the only installation you will need to run Ansible.
+
 > hurricanemark@ubuntu16#  **apt-add-repository ppa:ansible/ansible**
 
 > hurricanemark@ubuntu16# **apt-get update**
