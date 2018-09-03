@@ -7,7 +7,7 @@ Generally, Ansible is used as a main option for deploying software built by Jenk
 
 __This document describes steps used to have Ansible configured and controlled three separate OS environments (servers) via the use of SSH.__
 
-For the purpose of demonstrating how Ansible is used to configure and provision remote servers via SSH, let's refer to the table below.  We have a local controller node (*ubuntu16*), and three remote nodes (*raspberrypi3*, *linux1rhel*, *azuresles12*).  Note, all nodes have an established user account *hurricanemark*.
+For the purpose of demonstrating how Ansible is used to configure and provision remote servers via SSH, let's refer to the table below.  We have a local controller node (*ubuntu16*), and three remote nodes (*raspberrypi3*, *linux1rhel*, *azuresles12*).  Note, it is suggested that all nodes have the same user account. e.g. *hurricanemark*.  In the case of different user account, specify it in ~/.ssh/config.
 
 | Ansible Controller | Test Server    | IP_addr       | User          |
 | ------------------ |:---------------| -------------:|---------------|
