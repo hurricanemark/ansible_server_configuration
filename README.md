@@ -150,7 +150,7 @@ Now, run basic tasks on all three servers.
 
 > hurricanemark@ubuntu16> **ansible-playbook -K ~/myansible/playbook.yml**
 
-
+> hurricanemark@ubuntu16> **ansible-playbook playbook_aws.yml**
 
 
 

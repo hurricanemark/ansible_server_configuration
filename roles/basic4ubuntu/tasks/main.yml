@@ -1,4 +1,9 @@
-- name: "Installing vim"
-  apt: pkg=vim state=present
+### Note: ansible required python2.7 on remote node!!!
+#   e.g sudo apt-get install python-minimal
+
+- name: "Installing python3"
+  apt: pkg=python3 state=present
+- name: "Installing default-jre"
+  apt: pkg=default-jre state=present
 - name: "Installing git"
   apt: pkg=git state=present

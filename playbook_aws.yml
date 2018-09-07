@@ -1,0 +1,4 @@
+- hosts: awsgreenserver
+  become: true
+  roles:
+  - basic4ubuntu

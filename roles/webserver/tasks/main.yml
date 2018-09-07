@@ -1,5 +1,5 @@
-- name: "Installing webserver"
-  atp: name={{ item }}
+- name: "Installing Webserver Software"
+  apt: name={{ item }}
   with_items:
   - apache2
 

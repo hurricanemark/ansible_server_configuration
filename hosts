@@ -1,4 +1,5 @@
 ### Note: hosts referenced by name here are configured in ~/.ssh/config
+awsgreenserver
 raspberrypi3
 azuresles12
 linux1rhel
