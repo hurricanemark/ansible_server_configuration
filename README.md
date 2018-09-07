@@ -40,9 +40,9 @@ Make sure to change permission on ~/.ssh/identity_linux1_priv to 400. You can no
 ### Connect to servers with openssh
 > hurricanemark@ubuntu16> **ssh-keygen**
 
-> hurricanemark@ubuntu16> **ssh-copy-id markn@raspberrypi3**
+> hurricanemark@ubuntu16> **ssh-copy-id hurricanemark@raspberrypi3**
 
-> hurricanemark@ubuntu16> **ssh-copy-id markn@azuresles12**
+> hurricanemark@ubuntu16> **ssh-copy-id hurricanemark@azuresles12**
 
 > hurricanemark@ubuntu16> **ssh-copy-id -i ~/.ssh/identity_linux1_priv jakeo@linux1rhel**  
 
