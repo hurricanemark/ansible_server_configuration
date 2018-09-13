@@ -153,7 +153,16 @@ Now, run basic tasks on all three servers.
 > hurricanemark@ubuntu16> **ansible-playbook playbook_aws.yml**
 
 
+## Pain points
 
+We engineers and developers, would instantly recognize the pain points in doing the above.
+I can name a few: It is labor intensive, no conditional failsafe for diferrences in OS/platform dependencies, etc.
+My future checkin to github repo will address grouping technique in configuring ansible.cfg and hosts
+Further down the line, checkout Terraform and all of its modules [terraform module registry](https://registry.terraform.io/).
+
+
+Happy DevOps 'ing.  
+ 
 ## References
 [Ansible ad-hoc commands](https://docs.ansible.com/latest/usr_guide/intro_adhoc.html)
 
