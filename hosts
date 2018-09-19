@@ -1,5 +1,15 @@
 ### Note: hosts referenced by name here are configured in ~/.ssh/config
+# Grouped by webservers, dbservers, sandboxes
+#
+[sandboxes]
 awsgreenserver
+
+[development]
 raspberrypi3
-azuresles12
+
+[dbservers]
 linux1rhel
+
+[webservers]
+azuresles12
+awsgreenserver

@@ -156,8 +156,9 @@ Now, run basic tasks on all three servers.
 ## Pain points
 
 We engineers and developers, would instantly recognize the pain points in doing the above.
-I can name a few: It is labor intensive, no conditional failsafe for diferrences in OS/platform dependencies, etc.
-My future checkin to github repo will address grouping inventory technique in configuring ansible.cfg and hosts
+I can name a few: It is labor intensive, no conditional failsafe for diferrences in OS/platform dependencies, etc.  However, we need to learn how to crawl before we can walk.
+
+In order for an organization to grow, infrastructure as code is a neccessity.  In my future checkin to github repo will address grouping inventory technique in configuring ansible.cfg and hosts
 Further down the line, checkout Terraform and all of its modules [terraform module registry](https://registry.terraform.io/).
 
 
